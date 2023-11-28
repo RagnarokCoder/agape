@@ -1,4 +1,5 @@
 import 'package:agape_patrimonial/screens/home/main/home.dart';
+import 'package:agape_patrimonial/screens/login/main/login.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,9 +12,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Flutter Demo',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const Home());
+        home: const Login());
   }
 }
